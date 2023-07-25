@@ -4,11 +4,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Quicksand:wght@300;500;700&display=swap');
 
 html, body {
-    @apply w-full h-full m-0 p-0 box-border bg-zinc-100;
+    @apply w-full h-full m-0 p-0 box-border bg-[#f8f8f8];
 }
 
 .mabContainer {
-    @apply px-72;
+    @apply px-28;
+}
+
+.ant-btn-primary {
+    @apply bg-[#55BAE7];
 }
 
 @layer base {
@@ -17,9 +21,9 @@ html, body {
     }
 
     .box2Via {
-        background-image: url('./../assets/teste2.jpg');
+        background-image: url('./../assets/banner-home.jpg');
         background-repeat: no-repeat !important;
-        background-position: center !important;
+        /* background-position: center !important; */
         background-size: cover !important;
     }
 }
