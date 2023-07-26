@@ -11,7 +11,7 @@ const Header = ({ showDrawer, }: HeaderProps) => {
     return (
         <header className="flex flex-wrap items-center smPhone:justify-center smPhone:gap-3 smLaptop:justify-between mt-8 text-[.9rem]">
             <div>
-                <img className="h-20" src="../../assets/logo-mab-transparent.png" alt="logo mab assessoria" />
+                <img className="h-20" src="../../assets/logo-mab-transparent-6de3c51c.png" alt="logo mab assessoria" />
             </div>
 
             <div className="flex gap-3 items-center text-[.6rem]">
