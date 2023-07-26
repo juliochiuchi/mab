@@ -244,8 +244,8 @@ const Home = () => {
                     : <>
                         <div className="h-[100vh] w-[100vw] -mt-10 flex flex-col gap-5 items-center justify-center">
                             <div className="rounded-full bg-mab-gray-2 flex flex-col items-center justify-center w-[250px]">
-                                <img src="/src/assets/logo-mab-transparent.png" alt="logo mab assessoria" className="mt-14 h-[100px] animate-pulse" />
-                                <img src="/src/assets/progressbar.gif" alt="loading" className="h-[150px] -mt-14" />
+                                <img src="../../assets/logo-mab-transparent.png" alt="logo mab assessoria" className="mt-14 h-[100px] animate-pulse" />
+                                <img src="../../assets/progressbar.gif" alt="loading" className="h-[150px] -mt-14" />
                             </div>
                         </div>
                     </>
