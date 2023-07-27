@@ -35,7 +35,7 @@ export default {
       },
     },
     fontFamily: {
-      sans: ['Poppins',]
+      sans: ['Poppins', 'Quicksand']
     }
   },
   plugins: [],
