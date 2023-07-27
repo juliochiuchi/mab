@@ -12,7 +12,7 @@ const Contact = () => {
             </div>
 
             <div className="flex gap-2 flex-wrap">
-                <div className="flex justify-around gap-2">
+                <div className="flex justify-around gap-2 smPhone:w-full smLaptop:w-auto">
                     <div className="smPhone:hidden mdLaptop:inline-block mx-10 text-[.9rem] max-w-[45%] bg-mab-gray-1 text-mab-gray-dark-2 rounded-lg p-5">
                         <span>
                             A <span className="tracking-widest bg-mab-green px-2 rounded-md">MAB</span> é uma empresa que está no mercado atuando com
@@ -26,16 +26,16 @@ const Contact = () => {
                         </span>
                     </div>
 
-                    <div className="flex flex-wrap gap-2 flex-col items-center text-center bg-mab-gray-dark-3 rounded-lg smPhone:p-4 smPhone:mx-4 smPhone:text-[.7rem] mdLaptop:p-5 mdLaptop:mx-10 mdLaptop:text-[.9rem]">
+                    <div className="max-w-[100%] flex flex-wrap gap-2 flex-col items-center text-center bg-mab-gray-dark-3 rounded-lg smPhone:p-4 smPhone:mx-4 smPhone:text-[.6rem] mdPhone:text-[.7rem] smLaptop:p-5 smLaptop:mx-10 smLaptop:text-[.9rem]">
                         <div className="flex flex-col gap-4">
                             <div className="flex items-center gap-3">
-                                <MdOutlineHomeWork className="text-mab-green-icon text-[1.5rem]" /> R. Bernardino de Campos, 2976 Sala 306 | S. J. Rio Preto
+                                <MdOutlineHomeWork className="text-mab-green-icon smPhone:text-[.7rem] smLaptop:text-[1.5rem]" /> R. Bernardino de Campos, 2976 Sala 306 | S. J. Rio Preto
                             </div>
                             <div className="flex items-center gap-3">
-                                <BsTelephoneForward className="text-mab-green-icon text-[1.5rem]" /> +55 (17) 4141-5100
+                                <BsTelephoneForward className="text-mab-green-icon smPhone:text-[.7rem] smLaptop:text-[1.5rem]" /> +55 (17) 4141-5100
                             </div>
                             <div className="flex items-center gap-3">
-                                <MdOutlineMailOutline className="text-mab-green-icon text-[1.5rem]" /> <a className="text-mab-green" href="mailto:contato@mabassessoria.com.br">contato@mabassessoria.com.br</a>
+                                <MdOutlineMailOutline className="text-mab-green-icon smPhone:text-[.7rem] smLaptop:text-[1.5rem]" /> <a className="text-mab-green" href="mailto:contato@mabassessoria.com.br">contato@mabassessoria.com.br</a>
                             </div>
 
                             <div className="w-full flex justify-center my-6">
@@ -43,11 +43,11 @@ const Contact = () => {
                             </div>
 
                             <div className="flex items-center gap-3">
-                                <ImClock className="text-mab-green-icon text-[1.3rem]" /> Segunda à Sexta das 8h às 17h
+                                <ImClock className="text-mab-green-icon smPhone:text-[.7rem] smLaptop:text-[1.3rem]" /> Segunda à Sexta das 8h às 17h
                             </div>
 
                             <div className="flex items-center gap-3">
-                                <TbBeach className="text-mab-green-icon text-[1.5rem]" /> Aos sábados, <span className="bg-mab-red-close text-mab-gray-dark-2 p-2 rounded-lg tracking-widest">FECHADO</span>
+                                <TbBeach className="text-mab-green-icon smPhone:text-[.7rem] smLaptop:text-[1.5rem]" /> Aos sábados, <span className="bg-mab-red-close text-mab-gray-dark-2 p-2 rounded-lg tracking-widest">FECHADO</span>
                             </div>
                         </div>
                     </div>
