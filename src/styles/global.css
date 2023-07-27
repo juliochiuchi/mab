@@ -5,7 +5,7 @@
 
 html,
 body {
-  @apply w-full h-full m-0 p-0 box-border bg-mab-gray-1;
+  @apply w-full h-full m-0 p-0 box-border bg-mab-gray-1 font-sans;
 }
 
 .ant-btn-primary {
@@ -13,9 +13,9 @@ body {
 }
 
 @layer base {
-  html {
+  /* html {
     font-family: Poppins;
-  }
+  } */
 
   .mabContainer {
     padding-left: 7rem !important;
