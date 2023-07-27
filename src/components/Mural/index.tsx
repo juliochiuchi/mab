@@ -12,7 +12,7 @@ interface MuralProps {
 const Mural = ({ titleMural, titleDestaque, textCards, hasButton = false, info, }: MuralProps) => {
     return (
         <div data-hasButton={hasButton} className="data-[hasButton=false]:pb-10 border rounded-lg border-mab-gray-dark-2 m-12 flex flex-col bg-mab-gray-dark-2">
-            <div className="p-10 text-mab-white text-[1.6rem]">
+            <div className="p-10 text-mab-white-ice text-[1.6rem]">
                 <span className="tracking-wide font-bold">{titleMural}</span>
                 &nbsp;<span className="text-mab-green tracking-widest bg-mab-gray-dark-1 px-3 rounded-lg">{titleDestaque}</span>
             </div>

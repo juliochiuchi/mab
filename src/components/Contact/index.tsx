@@ -5,8 +5,8 @@ import { TbBeach, } from 'react-icons/tb';
 
 const Contact = () => {
     return (
-        <div className="border rounded-lg border-mab-gray-dark-2 m-12 bg-mab-gray-dark-2 text-mab-white">
-            <div className="p-10 text-mab-white text-[1.6rem]">
+        <div className="border rounded-lg border-mab-gray-dark-2 m-12 bg-mab-gray-dark-2 text-mab-white-ice">
+            <div className="p-10 text-mab-white-ice text-[1.6rem]">
                 <span className="tracking-wide font-bold">Localização e Contato</span>
                 &nbsp;<span className="text-mab-green">da <span className="tracking-widest bg-mab-gray-dark-1 px-3 rounded-lg">MAB</span></span>
             </div>

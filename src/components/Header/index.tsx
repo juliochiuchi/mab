@@ -15,11 +15,11 @@ const Header = ({ showDrawer, }: HeaderProps) => {
             </div>
 
             <div className="flex gap-3 items-center text-[.6rem]">
-                <span className="bg-mab-gray-dark-2 text-mab-white rounded-lg p-3 flex items-center gap-2 smPhone:flex-col smLaptop:flex-row">
+                <span className="bg-mab-gray-dark-2 text-mab-white-ice rounded-lg p-3 flex items-center gap-2 smPhone:flex-col smLaptop:flex-row">
                     <IoLocationSharp className="text-[1.2rem]" />
                     R. Bernardino de Campos, 2976 | São José do Rio Preto
                 </span>
-                <span className="bg-mab-gray-dark-2 text-mab-white rounded-lg p-3 flex items-center gap-2 smPhone:flex-col smLaptop:flex-row">
+                <span className="bg-mab-gray-dark-2 text-mab-white-ice rounded-lg p-3 flex items-center gap-2 smPhone:flex-col smLaptop:flex-row">
                     <ImClock className="text-[1.2rem]" />
                     Segunda à Sexta das 8h até às 17h. Aos sábados, FECHADO.
                 </span>
