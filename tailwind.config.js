@@ -11,8 +11,8 @@ export default {
       'smPhone': '320px',
       'mdPhone': '640px',
       'lgPhone': '768px',
-      'smLaptop': '1024px',
-      'mdLaptop': '1280px',
+      'smLaptop': '1000px',
+      'mdLaptop': '1366px',
       'lgLaptop': '1536px',
     },
     extend: {

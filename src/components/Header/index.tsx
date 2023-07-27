@@ -9,27 +9,27 @@ interface HeaderProps {
 
 const Header = ({ showDrawer, }: HeaderProps) => {
     return (
-        <header className="flex flex-wrap items-center smPhone:justify-center smPhone:gap-3 smLaptop:justify-between mt-8 text-[.9rem]">
-            <div>
+        <header className="flex flex-wrap items-center smPhone:justify-center smPhone:gap-3 mdLaptop:justify-between mt-8 text-[.9rem]">
+            <div className="flex flex-wrap items-center gap-10 smPhone:justify-center">
                 {/* <img className="h-20" src="../../assets/logo-mab-transparent-6de3c51c.png" alt="logo mab assessoria" /> */}
                 <img className="h-20" src="/src/assets/logo-mab-transparent.png" alt="logo mab assessoria" />
-            </div>
 
-            <div className="flex gap-3 items-center text-[.6rem]">
-                <span className="bg-mab-gray-dark-2 text-mab-white-ice rounded-lg p-3 flex items-center gap-2 smPhone:flex-col smLaptop:flex-row">
-                    <IoLocationSharp className="text-[1.2rem]" />
-                    R. Bernardino de Campos, 2976 | São José do Rio Preto
-                </span>
-                <span className="bg-mab-gray-dark-2 text-mab-white-ice rounded-lg p-3 flex items-center gap-2 smPhone:flex-col smLaptop:flex-row">
-                    <ImClock className="text-[1.2rem]" />
-                    Segunda à Sexta das 8h até às 17h. Aos sábados, FECHADO.
-                </span>
+                <div className="flex gap-3 items-center text-[.6rem]">
+                    <span className="bg-mab-gray-dark-2 text-mab-white-ice rounded-lg p-3 flex items-center gap-2 smPhone:flex-col smLaptop:flex-row">
+                        <IoLocationSharp className="text-[1.2rem]" />
+                        R. Bernardino de Campos, 2976 | São José do Rio Preto
+                    </span>
+                    <span className="bg-mab-gray-dark-2 text-mab-white-ice rounded-lg p-3 flex items-center gap-2 smPhone:flex-col smLaptop:flex-row">
+                        <ImClock className="text-[1.2rem]" />
+                        Segunda à Sexta das 8h até às 17h. Aos sábados, FECHADO.
+                    </span>
+                </div>
             </div>
 
             <div className="flex flex-wrap items-center gap-10">
-                <div className="smPhone:hidden smLaptop:inline-flex"><a href="#">Home</a></div>
+                <div className="smPhone:hidden lgLaptop:inline-flex"><a href="#">Home</a></div>
                 <Button
-                    className="flex items-center gap-2 rounded-3xl py-3 px-10"
+                    className="flex items-center gap-2 rounded-3xl py-3 px-10 focus:border-none"
                     showDrawer={showDrawer}
                     text="Área do Condômino"
                     icon={<MdSupervisedUserCircle className="text-[1.5rem]" />}
