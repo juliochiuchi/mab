@@ -21,7 +21,7 @@ const Mural = ({ titleMural, titleDestaque, textCards, hasButton = false, info, 
                 {
                     textCards.length > 0 && textCards !== undefined && textCards.map((item: { id: number, text: string, }) => (
                         <>
-                            <Card key={item.id} text={item.text} />
+                            <Card id={item.id} text={item.text} />
                         </>
                     ))
                 }
