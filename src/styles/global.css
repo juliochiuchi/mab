@@ -1,9 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Quicksand:wght@300;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Quicksand:wght@300;500;700&display=swap");
 
-html, body {
+html,
+body {
   @apply w-full h-full m-0 p-0 box-border bg-mab-gray-1 font-sans;
 }
 
@@ -12,7 +13,8 @@ html, body {
 }
 
 @layer base {
-  html, body {
+  html,
+  body {
     font-family: Poppins, system-ui, sans-serif;
     font-family: "Poppins", sans-serif;
   }
@@ -41,9 +43,16 @@ html, body {
   .box2Via {
     background-position: center !important;
   }
+
+  .ant-drawer-content-wrapper {
+    height: 450px !important;
+  }
 }
 
 @media (min-width: 640px) {
+  .ant-drawer-content-wrapper {
+    height: 650px !important;
+  }
 }
 
 @media (min-width: 768px) {
