@@ -20,9 +20,7 @@ const Mural = ({ titleMural, titleDestaque, textCards, hasButton = false, info, 
             <div className="flex flex-wrap gap-3 items-stretch smPhone:justify-center smLaptop:justify-start smLaptop:px-10">
                 {
                     textCards.length > 0 && textCards !== undefined && textCards.map((item: { id: number, text: string, }) => (
-                        <>
-                            <Card id={item.id} text={item.text} />
-                        </>
+                        <Card text={item.text} />
                     ))
                 }
             </div>
