@@ -3,6 +3,7 @@ import { BsTelephoneForward, } from 'react-icons/bs';
 import { ImClock, } from 'react-icons/im';
 import { TbBeach, } from 'react-icons/tb';
 
+
 const Contact = () => {
     return (
         <div className="border rounded-lg border-mab-gray-dark-2 bg-mab-gray-1 text-mab-gray-dark-2 smPhone:my-12 smPhone:mx-4 mdLaptop:m-12">
