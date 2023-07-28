@@ -5,15 +5,15 @@ import { TbBeach, } from 'react-icons/tb';
 
 const Contact = () => {
     return (
-        <div className="border rounded-lg border-mab-gray-dark-2 bg-mab-gray-dark-2 text-mab-white-ice smPhone:my-12 smPhone:mx-4 mdLaptop:m-12">
-            <div className="text-mab-white-ice smPhone:text-[1.2rem] smPhone:p-4 smLaptop:text-[1.6rem] smLaptop:p-10">
+        <div className="border rounded-lg border-mab-gray-dark-2 bg-mab-gray-1 text-mab-gray-dark-2 smPhone:my-12 smPhone:mx-4 mdLaptop:m-12">
+            <div className="text-mab-gray-dark-2 smPhone:text-[1.2rem] smPhone:p-4 smLaptop:text-[1.6rem] smLaptop:p-10">
                 <span className="tracking-wide font-bold">Localização e Contato da</span>
                 &nbsp;<span className="text-mab-green tracking-widest bg-mab-gray-dark-1 px-3 rounded-lg">MAB</span>
             </div>
 
             <div className="flex gap-2 flex-wrap">
                 <div className="flex justify-around gap-2 smPhone:w-full smLaptop:w-auto">
-                    <div className="smPhone:hidden mdLaptop:inline-block mx-10 text-[.9rem] max-w-[45%] bg-mab-gray-1 text-mab-gray-dark-2 rounded-lg p-5">
+                    <div className="smPhone:hidden mdLaptop:inline-block mx-10 text-[.9rem] max-w-[45%] bg-mab-gray-1 tracking-widest text-mab-gray-dark-2 rounded-lg p-5">
                         <span>
                             A <span className="tracking-widest bg-mab-green px-2 rounded-md">MAB</span> é uma empresa que está no mercado atuando com
                             &nbsp;<span className="tracking-widest bg-mab-green px-2 rounded-md">assessoria de administração de condomínio</span> localizada em São José do Rio Preto.
@@ -26,7 +26,7 @@ const Contact = () => {
                         </span>
                     </div>
 
-                    <div className="max-w-[100%] flex flex-wrap gap-2 flex-col items-center text-center bg-mab-gray-dark-3 rounded-lg smPhone:p-4 smPhone:mx-4 smPhone:text-[.6rem] mdPhone:text-[.7rem] smLaptop:p-5 smLaptop:mx-10 smLaptop:text-[.9rem]">
+                    <div className="text-mab-white-ice max-w-[100%] flex flex-wrap gap-2 flex-col items-center text-center bg-mab-gray-dark-3 rounded-lg smPhone:p-4 smPhone:mx-4 smPhone:text-[.6rem] mdPhone:text-[.7rem] smLaptop:p-5 smLaptop:mx-10 smLaptop:text-[.9rem]">
                         <div className="flex flex-col gap-4">
                             <div className="flex items-center gap-3">
                                 <MdOutlineHomeWork className="text-mab-green-icon smPhone:text-[.7rem] smLaptop:text-[1.5rem]" /> R. Bernardino de Campos, 2976 Sala 306 | S. J. Rio Preto
