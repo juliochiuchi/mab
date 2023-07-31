@@ -1,6 +1,7 @@
-import { IoLocationSharp, } from 'react-icons/io5';
+// import { IoLocationSharp, } from 'react-icons/io5';
 import { MdSupervisedUserCircle, } from 'react-icons/md';
-import { ImClock, } from 'react-icons/im';
+// import { ImClock, } from 'react-icons/im';
+import LogoMAB from "../../assets/logo-mab-transparent.png";
 import Button from '../Button';
 
 interface HeaderProps {
@@ -11,19 +12,7 @@ const Header = ({ showDrawer, }: HeaderProps) => {
     return (
         <header className="flex flex-wrap items-center smPhone:justify-center smPhone:gap-3 mdLaptop:justify-between mt-8 text-[.9rem]">
             <div className="flex flex-wrap items-center gap-10 smPhone:justify-center">
-                {/* <img className="h-20" src="../../assets/logo-mab-transparent-6de3c51c.png" alt="logo mab assessoria" /> */}
-                <img className="h-20" src="/src/assets/logo-mab-transparent.png" alt="logo mab assessoria" />
-
-                <div className="flex gap-3 items-center text-[.6rem]">
-                    <span className="bg-mab-gray-dark-2 text-mab-white-ice rounded-lg p-3 flex items-center gap-2 smPhone:flex-col smLaptop:flex-row">
-                        <IoLocationSharp className="text-[1.2rem]" />
-                        R. Bernardino de Campos, 2976 | São José do Rio Preto
-                    </span>
-                    <span className="bg-mab-gray-dark-2 text-mab-white-ice rounded-lg p-3 flex items-center gap-2 smPhone:flex-col smLaptop:flex-row">
-                        <ImClock className="text-[1.2rem]" />
-                        Segunda à Sexta das 8h até às 17h. Aos sábados, FECHADO.
-                    </span>
-                </div>
+                <img className="h-20" src={LogoMAB} alt="logo mab assessoria" />
             </div>
 
             <div className="flex flex-wrap items-center gap-10">
@@ -32,7 +21,7 @@ const Header = ({ showDrawer, }: HeaderProps) => {
                     className="flex items-center gap-2 rounded-3xl py-3 px-10 focus:border-none"
                     showDrawer={showDrawer}
                     text="Área do Condômino"
-                    icon={<MdSupervisedUserCircle className="text-[1.5rem]" />}
+                    icon={<MdSupervisedUserCircle className="text-[1.5rem] transition ease-in-out delay-150 duration-300 group-hover:translate-x-1 group-hover:scale-110" />}
                 />
             </div>
         </header>

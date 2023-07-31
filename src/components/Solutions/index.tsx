@@ -1,37 +1,50 @@
-import Button from "../Button";
-import Card from "../Card";
+import AppForDevelopers from "../../assets/apps-for-developers.png";
+import AppForDesigner from "../../assets/apps-for-designers.png";
+import AppForMarketers from "../../assets/apps-for-marketers.png";
+import { BsArrowRightShort, } from 'react-icons/bs';
 
-interface Solutions {
-    info: () => void,
-}
-
-const Solutions = ({ info, }: Solutions) => {
+const Solutions = () => {
     return (
-        <>
-            <div className="border rounded-lg border-mab-gray-dark-2 m-12 flex flex-col bg-mab-gray-dark-2">
-                <div className="p-10 text-mab-white-ice text-[1.6rem]">
-                    <span className="tracking-wide font-bold">Soluções Mais Populares</span>
-                    &nbsp;<span className="text-mab-green no-underline">da <span className="tracking-widest bg-mab-gray-dark-1 px-3 rounded-lg">MAB</span></span>
+        <div className="mt-10 p-0">
+            <div className="w-full text-center">
+                <h2 className="font-semibold tracking-wide text-[30px]">Soluções mais populares da MAB</h2>
+            </div>
+
+            <div className="mt-10 flex items-center gap-5 justify-center">
+                <div className="group border shadow-md rounded-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                    <img className="rounded-t-xl" src={AppForDevelopers} alt="developers" />
+                    <div className="flex flex-col gap-2 m-10">
+                        <span className="text-mab-title-banner font-bold group-hover:text-mab-blue-button">Conta corrente</span>
+                        <span className="text-mab-desc-banner font-medium text-[14px]">Sistema da conta corrente do condomínio, serviços informatizados e controle de contas</span>
+                        <a className="mt-3 text-[14px] text-mab-title-banner font-semibold flex gap-2 items-center group-hover:text-mab-blue-button" href="#">
+                            Descubra mais <BsArrowRightShort className="text-[1.5rem] transition ease-in-out delay-150 duration-300 group-hover:translate-x-1 group-hover:scale-110" />
+                        </a>
+                    </div>
                 </div>
 
-                <div className="px-10 flex justify-start items-stretch flex-wrap gap-3">
-                    <Card text={'SISTEMA DA CONTA CORRENTE DO CONDOMÍNIO'} />
-                    <Card text={'ASSISTÊNCIA TÉCNICA'} />
-                    <Card text={'ASSESSORIA COM PESSOAL'} />
-                    <Card text={'ASSESSORIA JURÍDICA'} />
-                    <Card text={'VISITAS AO CONDOMÍNIO'} />
-                    <Card text={'ASSESSORIA NA ADMINISTRAÇÃO DO CONDOMÍNIO'} />
-                    <Card text={'ELABORAÇÃO DE PREVISÃO'} />
-                    <Card text={'ATENDIMENTO PERSONALIZADO'} />
-                    <Card text={'ASSESSORIA NO CONTROLE DE CONTAS'} />
-                    <Card text={'SERVIÇOS INFORMATIZADOS E AGILIDADE'} />
+                <div className="group border shadow-md rounded-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                    <img className="rounded-t-xl" src={AppForMarketers} alt="marketers" />
+                    <div className="flex flex-col gap-2 m-10">
+                        <span className="text-mab-title-banner font-bold group-hover:text-mab-blue-button">Pessoal e jurídica</span>
+                        <span className="text-mab-desc-banner font-medium text-[14px]">Assessoria com pessoal, jurídica e controle de contas</span>
+                        <a className="mt-3 text-[14px] text-mab-title-banner font-semibold flex gap-2 items-center group-hover:text-mab-blue-button" href="#">
+                            Descubra mais <BsArrowRightShort className="text-[1.5rem] transition ease-in-out delay-150 duration-300 group-hover:translate-x-1 group-hover:scale-110" />
+                        </a>
+                    </div>
                 </div>
 
-                <div className="mt-8 -mb-[21px] flex justify-center">
-                    <Button info={info} text="Descubra Mais" className="rounded-xl py-2 px-16" />
+                <div className="group border shadow-md rounded-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
+                    <img className="rounded-t-xl" src={AppForDesigner} alt="designers" />
+                    <div className="flex flex-col gap-2 m-10">
+                        <span className="text-mab-title-banner font-bold group-hover:text-mab-blue-button">Atendimento personalizado</span>
+                        <span className="text-mab-desc-banner font-medium text-[14px]">Atendimento personalizado, sistema informatizado e agilidade</span>
+                        <a className="mt-3 text-[14px] text-mab-title-banner font-semibold flex gap-2 items-center group-hover:text-mab-blue-button" href="#">
+                            Descubra mais <BsArrowRightShort className="text-[1.5rem] transition ease-in-out delay-150 duration-300 group-hover:translate-x-1 group-hover:scale-110" />
+                        </a>
+                    </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 };
 

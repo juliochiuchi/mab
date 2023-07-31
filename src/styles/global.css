@@ -5,7 +5,7 @@
 
 html,
 body {
-  @apply w-full h-full m-0 p-0 box-border bg-mab-gray-1 font-sans;
+  @apply w-full h-full m-0 p-0 box-border bg-white font-sans;
 }
 
 .ant-btn-primary {

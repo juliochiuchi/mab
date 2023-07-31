@@ -33,6 +33,14 @@ export default {
         'mab-green-icon': '#9cb552',
         'mab-red-close-ios': '#FF5F56',
         'mab-red-close': '#e1b4b4',
+
+        'mab-blue-banner': '#ecf2ff',
+        'mab-title-banner': '#0c1830',
+        'mab-desc-banner': '#46526a',
+        'mab-blue-button': '#5178ff',
+        'mab-blue-button-hover': '#0c1830',
+        'mab-color-input': '#333',
+        'mab-localization': '#F8F8FB'
       },
     },
     fontFamily: {
