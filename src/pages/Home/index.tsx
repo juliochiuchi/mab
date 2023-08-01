@@ -1,6 +1,8 @@
 import { IoIosCloseCircle, } from 'react-icons/io';
 import { LoadingOutlined, } from '@ant-design/icons';
 
+import LogoMAP from '../../assets/logo-mab-transparent.png';
+
 import { Drawer, Spin, } from 'antd';
 import { useEffect, useState, } from 'react';
 import Header from '../../components/Header';
@@ -130,9 +132,7 @@ const Home = () => {
                     : <>
                         <div className="h-[100vh] w-[100vw] -mt-10 flex flex-col gap-5 items-center justify-center">
                             <div className="rounded-full bg-mab-gray-2 flex flex-col items-center justify-center w-[250px]">
-                                {/* <img src="../../assets/logo-mab-transparent-6de3c51c.png" alt="logo mab assessoria" className="mt-14 h-[100px] animate-pulse" /> */}
-                                <img src="/src/assets/logo-mab-transparent.png" alt="logo mab assessoria" className="mt-14 h-[100px] animate-pulse" />
-                                {/* <img src="../../assets/progressbar.gif" alt="loading" className="h-[150px] -mt-14" /> */}
+                                <img src={LogoMAP} alt="logo mab assessoria" className="mt-14 h-[100px] animate-pulse" />
                                 <img src="https://i.pinimg.com/originals/49/23/29/492329d446c422b0483677d0318ab4fa.gif" alt="loading" className="h-[150px] -mt-14" />
                             </div>
                         </div>

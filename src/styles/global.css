@@ -9,7 +9,7 @@ body {
 }
 
 .ant-btn-primary {
-  @apply bg-mab-blue;
+  @apply bg-mab-blue-light;
 }
 
 @layer base {

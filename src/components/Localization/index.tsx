@@ -1,13 +1,13 @@
 // F8F8FB
 const Localization = () => {
     return (
-        <div className="mt-20 bg-mab-localization p-28">
+        <div className="mt-20 bg-mab-section-gray p-28">
             <div className="flex items-center justify-center gap-10">
                 <div className="flex flex-col gap-2">
-                    <span className="font-semibold text-mab-title-banner text-[26px] w-[400px]">Contato e Localização</span>
-                    <span className="font-medium text-mab-desc-banner text-[14px] w-[280px]">Conheça a nossa localização através do mapa ao lado ou entre em contato conosco.</span>
-                    <button className="mt-7 rounded-3xl text-mab-title-banner border-mab-title-banner border p-3 w-[200px] 
-                    hover:bg-mab-blue-button hover:text-white hover:border-mab-blue-button
+                    <span className="font-semibold text-mab-blue-dark text-[26px] w-[400px]">Contato e Localização</span>
+                    <span className="font-medium text-mab-gray-medium text-[14px] w-[280px]">Conheça a nossa localização através do mapa ao lado ou entre em contato conosco.</span>
+                    <button className="mt-7 rounded-3xl text-mab-blue-dark border-mab-blue-dark border p-3 w-[200px] 
+                    hover:bg-mab-blue-light hover:text-white hover:border-mab-blue-light
                     transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300
                     ">
                         Entrar em contato

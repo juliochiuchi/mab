@@ -21,7 +21,7 @@ const Button = ({ showDrawer, info, text, icon, ...rest }: ButtonProps) => {
                     )
                 )
             }
-            className={twMerge("focus:border-none bg-mab-blue-button border-mab-blue-button color-black hover:bg-mab-blue-button-hover hover:border-mab-blue-button-hover text-white ease-in-out transition delay-150 hover:-translate-y-1 hover:scale-110 duration-300 group", rest.className)}
+            className={twMerge("focus:border-none bg-mab-blue-light border-mab-blue-light color-black hover:bg-mab-blue-dark hover:border-mab-blue-dark text-white ease-in-out transition delay-150 hover:-translate-y-1 hover:scale-110 duration-300 group", rest.className)}
         >
             {text} {icon}
         </button>

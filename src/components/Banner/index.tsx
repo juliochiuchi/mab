@@ -16,7 +16,7 @@ interface BannerProps {
 
 const Banner = ({ showDrawer, }: BannerProps) => {
     return (
-        <div className="rounded-3xl flex flex-row gap-6 justify-evenly items-center bg-[#ecf2ff] py-12 mt-5">
+        <div className="rounded-3xl flex flex-row gap-6 justify-evenly items-center bg-mab-blue-gray py-12 mt-5">
             <div className="">
                 <div className="ml-52"><img src={SmallBlackCircle} alt="small black circle" /></div>
                 <div className="flex flex-row items-end">
@@ -36,7 +36,7 @@ const Banner = ({ showDrawer, }: BannerProps) => {
                     <span className="text-[#46526a]">Deseja acessar a sua área de condômino?</span>
                     <Button
                         showDrawer={showDrawer}
-                        className="bg-white text-mab-color-input hover:text-white hover:bg-mab-blue-button rounded-3xl text-[.8rem] py-3 px-10"
+                        className="bg-white text-mab-gray-dark hover:text-white hover:bg-mab-blue-light rounded-3xl text-[.8rem] py-3 px-10"
                         text="Acessar Área do Condômino"
                     />
                 </div>

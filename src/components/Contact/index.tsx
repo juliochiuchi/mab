@@ -5,16 +5,16 @@ import { TbClockFilled, } from 'react-icons/tb';
 const Contact = () => {
     return (
         <div className="my-14 flex items-center justify-center gap-7 w-full">
-            <div className="py-14 px-7 flex flex-col gap-2 bg-[#ECF2FF] rounded-3xl w-[50%]">
+            <div className="py-14 px-7 flex flex-col gap-2 bg-mab-blue-gray rounded-3xl w-[50%]">
                 <span className="text-white">
-                    <PiBuildingsFill className="text-[3rem] text-mab-blue-button" />
+                    <PiBuildingsFill className="text-[3rem] text-mab-blue-light" />
                 </span>
-                <span className="text-mab-title-banner font-bold text-[30px]">Venha nos visitar!</span>
-                <span className="text-mab-desc-banner font-medium text-[14px] w-[380px]">
+                <span className="text-mab-blue-dark font-bold text-[30px]">Venha nos visitar!</span>
+                <span className="text-mab-gray-medium font-medium text-[14px] w-[380px]">
                     {/* Lorem ipsum dolor sit amet consectetur adipiscing elit duis blandit viverra feugiat sit quis tristique. */}
                     Estamos localizados na rua Bernardino de Campos, 2976 - São José do Rio Preto. São Paulo, Brasil.
                 </span>
-                <button className="mt-7 bg-mab-blue-button text-white rounded-3xl p-3 w-[170px] text-center flex items-center justify-center gap-2
+                <button className="mt-7 bg-mab-blue-light text-white rounded-3xl p-3 w-[170px] text-center flex items-center justify-center gap-2
                     transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 group
                 ">
                     Visite agora <BsArrowRightShort className="text-[1.5rem] transition ease-in-out delay-150 duration-300 group-hover:translate-x-1 group-hover:scale-110" />
@@ -30,7 +30,7 @@ const Contact = () => {
                     {/* Lorem ipsum dolor sit amet consectetur adipiscing elit duis blandit viverra feugiat sit quis tristique. */}
                     Estamos abertos de Segunda à Sexta das 8h da manhã até às 17h da tarde. Aos sábados, FECHADO.
                 </span>
-                <button className="mt-7 bg-mab-blue-button-hover text-white rounded-3xl p-3 w-[170px] text-center flex items-center justify-center gap-2
+                <button className="mt-7 bg-mab-blue-dark text-white rounded-3xl p-3 w-[170px] text-center flex items-center justify-center gap-2
                 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 group
                 ">
                     Visite agora <BsArrowRightShort className="text-[1.5rem] transition ease-in-out delay-150 duration-300 group-hover:translate-x-1 group-hover:scale-110" />

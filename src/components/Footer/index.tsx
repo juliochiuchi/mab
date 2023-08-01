@@ -12,20 +12,20 @@ const Footer = () => {
             </div>
 
             <div className="my-10 flex items-center justify-center gap-7 w-full">
-                <div className="py-10 px-7 flex flex-row justify-between gap-10 bg-[#ECF2FF] rounded-3xl w-[50%]">
+                <div className="py-10 px-7 flex flex-row justify-between gap-10 bg-mab-blue-gray rounded-3xl w-[50%]">
                     <div className="flex gap-3 items-center">
                         <span className="text-white">
-                            <PiBuildingsFill className="text-[3rem] text-mab-blue-button" />
+                            <PiBuildingsFill className="text-[3rem] text-mab-blue-light" />
                         </span>
                         <div className="flex flex-col">
-                            <span className="text-mab-title-banner font-bold text-[18px]">Venha nos visitar!</span>
-                            <span className="text-mab-desc-banner font-medium text-[14px] w-[360px]">
+                            <span className="text-mab-blue-dark font-bold text-[18px]">Venha nos visitar!</span>
+                            <span className="text-mab-gray-medium font-medium text-[14px] w-[360px]">
                                 R. Bernardino de Campos, 2976 - S. J. Rio Preto.
                             </span>
                         </div>
                     </div>
 
-                    <button className="bg-mab-blue-button text-white rounded-3xl py-0 px-3 w-[170px] text-center font-medium text-[12px] flex items-center gap-1
+                    <button className="bg-mab-blue-light text-white rounded-3xl py-0 px-3 w-[170px] text-center font-medium text-[12px] flex items-center gap-1
                     transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 group
                     ">
                         Visite agora <BsArrowRightShort className="text-[1.5rem] transition ease-in-out delay-150 duration-300 group-hover:translate-x-1 group-hover:scale-110" />
@@ -45,7 +45,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <button className="bg-mab-blue-button-hover text-white rounded-3xl px-3 w-[150px] text-center font-medium text-[12px] flex items-center gap-1
+                    <button className="bg-mab-blue-dark text-white rounded-3xl px-3 w-[150px] text-center font-medium text-[12px] flex items-center gap-1
                     transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 group
                     ">
                         Visite agora <BsArrowRightShort className="text-[1.5rem] transition ease-in-out delay-150 duration-300 group-hover:translate-x-1 group-hover:scale-110" />
