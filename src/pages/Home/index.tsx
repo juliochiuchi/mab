@@ -1,14 +1,12 @@
-import { MdCheckBox, } from 'react-icons/md';
 import { IoIosCloseCircle, } from 'react-icons/io';
 import { LoadingOutlined, } from '@ant-design/icons';
 
-import { Drawer, Modal, Spin, } from 'antd';
+import { Drawer, Spin, } from 'antd';
 import { useEffect, useState, } from 'react';
 import Header from '../../components/Header';
 import Banner from '../../components/Banner';
 import Contact from '../../components/Contact';
 import Footer from '../../components/Footer';
-import Mural from '../../components/Mural';
 import Products from '../../components/Products';
 import Solutions from '../../components/Solutions';
 import Localization from '../../components/Localization';
@@ -18,80 +16,6 @@ const Home = () => {
     const [open, setOpen] = useState<boolean>(false);
     const [readyIFrame, setReadyIFrame] = useState<boolean>(false);
     const [readyThisPage, setReadyThisPage] = useState<boolean>(false);
-    const itemsSolutions: {
-        id: number,
-        text: string,
-    }[] = [
-            {
-                id: 1,
-                text: 'SISTEMA DA CONTA CORRENTE DO CONDOMÍNIO',
-            },
-            {
-                id: 2,
-                text: 'ASSISTÊNCIA TÉCNICA',
-            },
-            {
-                id: 3,
-                text: 'ASSESSORIA COM PESSOAL',
-            },
-            {
-                id: 4,
-                text: 'ASSESSORIA JURÍDICA',
-            },
-            {
-                id: 5,
-                text: 'VISITAS AO CONDOMÍNIO',
-            },
-            {
-                id: 6,
-                text: 'ASSESSORIA NA ADMINISTRAÇÃO DO CONDOMÍNIO',
-            },
-            {
-                id: 7,
-                text: 'ELABORAÇÃO DE PREVISÃO',
-            },
-            {
-                id: 8,
-                text: 'ATENDIMENTO PERSONALIZADO',
-            },
-            {
-                id: 9,
-                text: 'ASSESSORIA NO CONTROLE DE CONTAS',
-            },
-            {
-                id: 10,
-                text: 'SERVIÇOS INFORMATIZADOS E AGILIDADE',
-            },
-        ];
-    // const itemsServices: {
-    //     id: number,
-    //     text: string,
-    // }[] = [
-    //         {
-    //             id: 1,
-    //             text: 'CONTROLE DE DOCUMENTAÇÃO',
-    //         },
-    //         {
-    //             id: 2,
-    //             text: 'CONVOCAÇÃO E ORIENTAÇÃO',
-    //         },
-    //         {
-    //             id: 3,
-    //             text: 'EQUILÍBRIO FINANCEIRO',
-    //         },
-    //         {
-    //             id: 4,
-    //             text: 'CUMPRIMENTO DE DELIBERAÇÕES',
-    //         },
-    //         {
-    //             id: 5,
-    //             text: 'APRESENTAÇÃO DE PROPOSTA',
-    //         },
-    //         {
-    //             id: 6,
-    //             text: 'SERVIÇOS INFORMATIZADOS',
-    //         },
-    //     ];
 
     useEffect(() => {
         setReadyThisPage(false);
