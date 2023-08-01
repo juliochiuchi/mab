@@ -40,6 +40,10 @@ body {
 }
 
 @media (min-width: 320px) {
+  .unsetAlignItems {
+    align-items: center !important;
+  }
+  
   .box2Via {
     background-position: center !important;
   }
@@ -58,13 +62,17 @@ body {
 @media (min-width: 768px) {
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1000px) {
+  .unsetAlignItems {
+    align-items: unset !important;
+  }
+
   .box2Via {
     background-position: unset !important;
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 1366px) {
 }
 
 @media (min-width: 1536px) {
