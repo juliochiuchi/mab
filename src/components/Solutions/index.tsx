@@ -10,7 +10,7 @@ const Solutions = () => {
                 <h2 className="font-semibold tracking-wide text-[30px]">Soluções mais populares da MAB</h2>
             </div>
 
-            <div className="mt-10 flex items-center gap-5 justify-center">
+            <div className="mt-10 flex gap-5 justify-center smPhone:flex-col smPhone:items-center smLaptop:flex-row smLaptop:items-stretch">
                 <div className="group border shadow-md rounded-xl transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300">
                     <img className="rounded-t-xl" src={AppForDevelopers} alt="developers" />
                     <div className="flex flex-col gap-2 m-10">

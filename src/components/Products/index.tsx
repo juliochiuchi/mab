@@ -14,34 +14,34 @@ const Products = () => {
     return (
         <div className="mt-10 p-0">
             <div className="p-0 mt-5 flex justify-start gap-14
-                mdLaptop:flex mdLaptop:justify-start mdLaptop:flex-row mdLaptop:items-start
+                smLaptop:flex smLaptop:justify-start smLaptop:flex-row smLaptop:items-start
                 smPhone:flex smPhone:flex-col smPhone:justify-center smPhone:items-center
             ">
                 <div className="unsetAlignItems flex flex-col gap-5 w-full
                     smPhone:justify-center
-                    mdLaptop:justify-start
+                    smLaptop:justify-start
                 ">
                     <h2 className="font-semibold tracking-wide text-[30px]">Produtos em destaque</h2>
 
                     <div className="border rounded-2xl shadow-lg p-3 flex justify-between items-center py-5
-                        mdLaptop:flex-row
+                        smLaptop:flex-row
                         smPhone:flex-col
                     ">
-                        <div className="mdLaptop:ml-10 smPhone:ml-0">
+                        <div className="smLaptop:ml-10 smPhone:ml-0">
                             <div className="flex items-center gap-4
-                                mdLaptop:flex-row
+                                smLaptop:flex-row
                                 smPhone:flex-col
                             ">
                                 <div>
                                     <RiMoneyDollarCircleFill className="text-[5rem] text-[#002C76]" />
                                 </div>
                                 <div className="flex flex-col gap-4
-                                    mdLaptop:items-start
+                                    smLaptop:items-start
                                     smPhone:items-center
                                 ">
                                     <span className="font-bold text-mab-blue-dark">Previsão</span>
                                     <span className="text-mab-gray-medium font-medium text-[14px] 
-                                        mdLaptop:w-[500px] mdLaptop:text-left
+                                        smLaptop:w-[500px] smLaptop:text-left
                                         smPhone:w-auto smPhone:text-center
                                     ">
                                         Elaboração de previsão orçamentária, quando solicitado, a fim de manter equilibrada a situação
@@ -54,7 +54,7 @@ const Products = () => {
                             </div>
                         </div>
 
-                        <div className="mdLaptop:mr-10 mdLaptop:mt-0 smPhone:mr-0 smPhone:mt-10">
+                        <div className="smLaptop:mr-10 smLaptop:mt-0 smPhone:mr-0 smPhone:mt-10">
                             <Button
                                 className="flex items-center gap-2 rounded-3xl py-3 px-6 focus:border-none"
                                 text="Mais"
@@ -64,24 +64,24 @@ const Products = () => {
                     </div>
 
                     <div className="border rounded-2xl shadow-lg p-3 flex justify-between items-center py-5
-                        mdLaptop:flex-row
+                        smLaptop:flex-row
                         smPhone:flex-col
                     ">
-                        <div className="mdLaptop:ml-10 smPhone:ml-0">
+                        <div className="smLaptop:ml-10 smPhone:ml-0">
                             <div className="flex items-center gap-4
-                                mdLaptop:flex-row
+                                smLaptop:flex-row
                                 smPhone:flex-col
                             ">
                                 <div>
                                     <VscFolderActive className="text-[#5142FB] text-[5rem]" />
                                 </div>
                                 <div className="flex flex-col gap-4
-                                    mdLaptop:items-start
+                                    smLaptop:items-start
                                     smPhone:items-center
                                 ">
                                     <span className="font-bold text-mab-blue-dark">Gestão</span>
                                     <span className="text-mab-gray-medium font-medium text-[14px]
-                                        mdLaptop:w-[500px] mdLaptop:text-left
+                                        smLaptop:w-[500px] smLaptop:text-left
                                         smPhone:w-auto smPhone:text-center
                                     ">
                                         Emissão de balancetes mensais de receitas e despesas ordinárias e extraordinárias e envio a todos os condôminos.
@@ -93,7 +93,7 @@ const Products = () => {
                             </div>
                         </div>
 
-                        <div className="mdLaptop:mr-10 mdLaptop:mt-0 smPhone:mr-0 smPhone:mt-10">
+                        <div className="smLaptop:mr-10 smLaptop:mt-0 smPhone:mr-0 smPhone:mt-10">
                             <Button
                                 className="flex items-center gap-2 rounded-3xl py-3 px-6 focus:border-none"
                                 text="Mais"
@@ -103,24 +103,24 @@ const Products = () => {
                     </div>
 
                     <div className="border rounded-2xl shadow-lg p-3 flex justify-between items-center py-5
-                        mdLaptop:flex-row
+                        smLaptop:flex-row
                         smPhone:flex-col
                     ">
-                        <div className="mdLaptop:ml-10 smPhone:ml-0">
+                        <div className="smLaptop:ml-10 smPhone:ml-0">
                             <div className="flex items-center gap-4
-                                mdLaptop:flex-row
+                                smLaptop:flex-row
                                 smPhone:flex-col
                             ">
                                 <div>
                                     <MdOutlineSecurity className="text-[5rem] text-[#005DFF]" />
                                 </div>
                                 <div className="flex flex-col gap-4
-                                    mdLaptop:items-start
+                                    smLaptop:items-start
                                     smPhone:items-center
                                 ">
                                     <span className="font-bold text-mab-blue-dark">Segurança</span>
                                     <span className="text-mab-gray-medium font-medium text-[14px]
-                                        mdLaptop:w-[500px] mdLaptop:text-left
+                                        smLaptop:w-[500px] smLaptop:text-left
                                         smPhone:w-auto smPhone:text-center
                                     ">
                                         Apresentação de proposta para renovar seguro de incêndio, de responsabilidade civil e outros
@@ -134,7 +134,7 @@ const Products = () => {
                             </div>
                         </div>
 
-                        <div className="mdLaptop:mr-10 mdLaptop:mt-0 smPhone:mr-0 smPhone:mt-10">
+                        <div className="smLaptop:mr-10 smLaptop:mt-0 smPhone:mr-0 smPhone:mt-10">
                             <Button
                                 className="flex items-center gap-2 rounded-3xl py-3 px-6 focus:border-none"
                                 text="Mais"
@@ -145,7 +145,7 @@ const Products = () => {
                 </div>
 
                 <div className="w-[35%] flex flex-col gap-5
-                    mdLaptop:w-[35%]
+                    smLaptop:w-[35%]
                     smPhone:w-full">
                     <h2 className="font-semibold tracking-wide text-[18px]">Categorias</h2>
 

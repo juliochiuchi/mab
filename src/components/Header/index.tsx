@@ -10,7 +10,7 @@ interface HeaderProps {
 
 const Header = ({ showDrawer, }: HeaderProps) => {
     return (
-        <header className="flex flex-wrap items-center smPhone:justify-center smPhone:gap-3 mdLaptop:justify-between mt-8 text-[.9rem]">
+        <header className="flex flex-wrap items-center smPhone:justify-center smPhone:gap-3 smLaptop:justify-between mt-8 text-[.9rem]">
             <div className="flex flex-wrap items-center gap-10 smPhone:justify-center">
                 <img className="h-20" src={LogoMAB} alt="logo mab assessoria" />
             </div>
