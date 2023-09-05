@@ -50,11 +50,18 @@ const Banner = ({ showDrawer, }: BannerProps) => {
                 </span>
                 <div className="flex flex-row items-center gap-3 mt-5">
                     <span className="text-[#46526a] smPhone:hidden smLaptop:inline-block">Deseja acessar a sua área de condômino?</span>
-                    <Button
+                    {/* <Button
                         showDrawer={showDrawer}
                         className="bg-white text-mab-gray-dark hover:text-white hover:bg-mab-blue-light rounded-3xl text-[.8rem] py-3 px-10 smPhone:mx-4 smLaptop:mx-0"
                         text="Acessar Área do Condômino"
-                    />
+                    /> */}
+                    <a
+                    href="https://mabassessoria.superlogica.net/clients/areadocondomino/"
+                    target="_blank"
+                    className="bg-white text-mab-gray-dark hover:text-white hover:bg-mab-blue-light rounded-3xl text-[.8rem] py-3 px-10 smPhone:mx-4 smLaptop:mx-0 flex items-center gap-2 focus:border-none border-mab-blue-light color-black hover:border-mab-blue-dark ease-in-out transition delay-150 hover:-translate-y-1 hover:scale-110 duration-300 group"
+                >
+                    Área do Condômino
+                </a>
                 </div>
             </div>
 

@@ -5,12 +5,12 @@ const Localization = () => {
                 <div className="flex flex-col gap-2 smPhone:items-center smPhone:justify-center smPhone:text-center smLaptop:items-start smLaptop:justify-start smLaptop:text-left">
                     <span className="font-semibold text-mab-blue-dark text-[26px] smPhone:w-full smLaptop:w-[400px]">Contato e Localização</span>
                     <span className="font-medium text-mab-gray-medium text-[14px] smphone:w-full smLaptop:w-[280px]">Conheça a nossa localização através do mapa ao lado ou entre em contato conosco.</span>
-                    <button className="mt-7 rounded-3xl text-mab-blue-dark border-mab-blue-dark border p-3 w-[200px] 
+                    <a href="mailto:contato@mabassessoria.com.br" className="text-center mt-7 rounded-3xl text-mab-blue-dark border-mab-blue-dark border p-3 w-[200px] 
                     hover:bg-mab-blue-light hover:text-white hover:border-mab-blue-light
                     transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300
                     ">
                         Entrar em contato
-                    </button>
+                    </a>
                 </div>
 
                 <div className="rounded-3xl w-full">

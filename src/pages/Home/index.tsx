@@ -76,6 +76,7 @@ const Home = () => {
                 open={open}
                 closeIcon={<IoIosCloseCircle className="text-mab-red-close-ios" />}
             >
+
                 {
                     readyIFrame
                         ? <>

@@ -25,13 +25,16 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <button className="bg-mab-blue-light text-white rounded-3xl px-3 w-[130px] 
+                    <a
+                    target="_blank"
+                    href="https://www.google.com/maps/dir//R.+Bernardino+de+Campos,+2976+-+Vila+Maceno+S%C3%A3o+Jos%C3%A9+do+Rio+Preto+-+SP+15015-300/@-20.8111212,-49.3807012,19z/data=!4m5!4m4!1m0!1m2!1m1!1s0x94bdad5b7e2360ef:0xf344fbf561eb9402"
+                    className="bg-mab-blue-light text-white rounded-3xl px-3 w-[130px] 
                     text-center font-medium text-[10px] flex justify-center items-center gap-1
                     transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 group
                     smPhone:py-1 smLaptop:py-0
                     ">
                         Visite agora <BsArrowRightShort className="text-[1.5rem] transition ease-in-out delay-150 duration-300 group-hover:translate-x-1 group-hover:scale-110" />
-                    </button>
+                    </a>
                 </div>
 
                 <div className="py-10 px-7 flex justify-between gap-10 bg-[#6386FF] rounded-3xl smPhone:w-full smPhone:flex-col smLaptop:w-[50%] smLaptop:flex-row">
@@ -47,13 +50,16 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <button className="bg-mab-blue-dark text-white rounded-3xl px-3 w-[130px] 
+                    <a
+                    target="_blank"
+                    href="https://www.google.com/maps/dir//R.+Bernardino+de+Campos,+2976+-+Vila+Maceno+S%C3%A3o+Jos%C3%A9+do+Rio+Preto+-+SP+15015-300/@-20.8111212,-49.3807012,19z/data=!4m5!4m4!1m0!1m2!1m1!1s0x94bdad5b7e2360ef:0xf344fbf561eb9402"
+                    className="bg-mab-blue-dark text-white rounded-3xl px-3 w-[130px] 
                     text-center font-medium text-[10px] flex justify-center items-center gap-1
                     transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 group
                     smPhone:py-1 smLaptop:py-0
                     ">
                         Visite agora <BsArrowRightShort className="text-[1.5rem] transition ease-in-out delay-150 duration-300 group-hover:translate-x-1 group-hover:scale-110" />
-                    </button>
+                    </a>
                 </div>
             </div>
 

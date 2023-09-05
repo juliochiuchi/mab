@@ -13,11 +13,14 @@ const Contact = () => {
                 <span className="text-mab-gray-medium font-medium text-[14px] smPhone:w-auto smLaptop:w-[380px]">
                     Estamos localizados na rua Bernardino de Campos, 2976 - São José do Rio Preto. São Paulo, Brasil.
                 </span>
-                <button className="mt-7 bg-mab-blue-light text-white rounded-3xl p-3 w-[170px] text-center flex items-center justify-center gap-2
+                <a
+                    target="_blank"
+                    href="https://www.google.com/maps/dir//R.+Bernardino+de+Campos,+2976+-+Vila+Maceno+S%C3%A3o+Jos%C3%A9+do+Rio+Preto+-+SP+15015-300/@-20.8111212,-49.3807012,19z/data=!4m5!4m4!1m0!1m2!1m1!1s0x94bdad5b7e2360ef:0xf344fbf561eb9402"
+                    className="mt-7 bg-mab-blue-light text-white rounded-3xl p-3 w-[170px] text-center flex items-center justify-center gap-2
                     transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 group
                 ">
                     Visite agora <BsArrowRightShort className="text-[1.5rem] transition ease-in-out delay-150 duration-300 group-hover:translate-x-1 group-hover:scale-110" />
-                </button>
+                </a>
             </div>
 
             <div className="py-14 px-7 flex flex-col gap-2 bg-[#6386FF] rounded-3xl smPhone:w-full smLaptop:w-[50%]">
@@ -28,11 +31,14 @@ const Contact = () => {
                 <span className="text-white font-medium text-[14px] smPhone:w-auto smLaptop:w-[380px]">
                     Estamos abertos de Segunda à Sexta das 8h da manhã até às 17h da tarde. Aos sábados, FECHADO.
                 </span>
-                <button className="mt-7 bg-mab-blue-dark text-white rounded-3xl p-3 w-[170px] text-center flex items-center justify-center gap-2
+                <a
+                    target="_blank"
+                    href="https://www.google.com/maps/dir//R.+Bernardino+de+Campos,+2976+-+Vila+Maceno+S%C3%A3o+Jos%C3%A9+do+Rio+Preto+-+SP+15015-300/@-20.8111212,-49.3807012,19z/data=!4m5!4m4!1m0!1m2!1m1!1s0x94bdad5b7e2360ef:0xf344fbf561eb9402"
+                    className="mt-7 bg-mab-blue-dark text-white rounded-3xl p-3 w-[170px] text-center flex items-center justify-center gap-2
                 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 group
                 ">
                     Visite agora <BsArrowRightShort className="text-[1.5rem] transition ease-in-out delay-150 duration-300 group-hover:translate-x-1 group-hover:scale-110" />
-                </button>
+                </a>
             </div>
         </div>
     );
