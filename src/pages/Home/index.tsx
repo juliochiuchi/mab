@@ -1,9 +1,9 @@
 import { IoIosCloseCircle, } from 'react-icons/io';
-import { LoadingOutlined, } from '@ant-design/icons';
+// import { LoadingOutlined, } from '@ant-design/icons';
 
 import LogoMAP from '../../assets/logo-mab-transparent.png';
 
-import { Drawer, Spin, } from 'antd';
+import { Drawer, } from 'antd';
 import { useEffect, useState, } from 'react';
 import Header from '../../components/Header';
 import Banner from '../../components/Banner';
@@ -14,9 +14,9 @@ import Solutions from '../../components/Solutions';
 import Localization from '../../components/Localization';
 
 const Home = () => {
-    const antIcon = <LoadingOutlined style={{ fontSize: 24 }} spin />;
+    // const antIcon = <LoadingOutlined style={{ fontSize: 24 }} spin />;
     const [open, setOpen] = useState<boolean>(false);
-    const [readyIFrame, setReadyIFrame] = useState<boolean>(false);
+    // const [readyIFrame, setReadyIFrame] = useState<boolean>(false);
     const [readyThisPage, setReadyThisPage] = useState<boolean>(false);
 
     useEffect(() => {
@@ -26,14 +26,14 @@ const Home = () => {
         }, 3000);
     }, []);
 
-    const showDrawer = () => {
-        setOpen(true);
-        setReadyIFrame(false);
+    // const showDrawer = () => {
+    //     setOpen(true);
+    //     setReadyIFrame(false);
 
-        setTimeout(() => {
-            setReadyIFrame(true);
-        }, 4000);
-    };
+    //     setTimeout(() => {
+    //         setReadyIFrame(true);
+    //     }, 4000);
+    // };
 
     const onClose = () => {
         setOpen(false);
@@ -45,8 +45,8 @@ const Home = () => {
                 readyThisPage
                     ? <>
                         <div className="smPhone:mabContainerMobile smLaptop:mabContainer">
-                            <Header showDrawer={showDrawer} />
-                            <Banner showDrawer={showDrawer} />
+                            <Header />
+                            <Banner />
                             <Products />
                             <Contact />
                             <Solutions />
@@ -77,7 +77,7 @@ const Home = () => {
                 closeIcon={<IoIosCloseCircle className="text-mab-red-close-ios" />}
             >
 
-                {
+                {/* {
                     readyIFrame
                         ? <>
                             <div id="areaCondominio" style={{ width: '100%' }}>
@@ -95,7 +95,7 @@ const Home = () => {
                                 <Spin indicator={antIcon} />
                             </div>
                         </>
-                }
+                } */}
             </Drawer>
         </>
     );

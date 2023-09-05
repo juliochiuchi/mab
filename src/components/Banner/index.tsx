@@ -1,4 +1,4 @@
-import Button from "../Button";
+// import Button from "../Button";
 import Barchar from "../../assets/left/barchar.svg";
 import Chat from "../../assets/left/chat.svg";
 import CurvyLine from "../../assets/left/curvy-line.svg";
@@ -10,11 +10,12 @@ import SmallCurvyLine from "../../assets/right/small-curvy-line.svg";
 import Triangle from "../../assets/right/triangle.svg";
 import Window from "../../assets/right/window.svg";
 
-interface BannerProps {
-    showDrawer: () => void,
-}
+// interface BannerProps {
+//     showDrawer: () => void,
+// }
 
-const Banner = ({ showDrawer, }: BannerProps) => {
+// const Banner = ({ showDrawer, }: BannerProps) => {
+const Banner = () => {
     return (
         <div className="rounded-3xl bg-mab-blue-gray py-12 mt-5
             smLaptop:flex smLaptop:flex-row smLaptop:gap-6 smLaptop:justify-evenly smLaptop:items-center smLaptop:px-0
@@ -56,12 +57,12 @@ const Banner = ({ showDrawer, }: BannerProps) => {
                         text="Acessar Área do Condômino"
                     /> */}
                     <a
-                    href="https://mabassessoria.superlogica.net/clients/areadocondomino/"
-                    target="_blank"
-                    className="bg-white text-mab-gray-dark hover:text-white hover:bg-mab-blue-light rounded-3xl text-[.8rem] py-3 px-10 smPhone:mx-4 smLaptop:mx-0 flex items-center gap-2 focus:border-none border-mab-blue-light color-black hover:border-mab-blue-dark ease-in-out transition delay-150 hover:-translate-y-1 hover:scale-110 duration-300 group"
-                >
-                    Área do Condômino
-                </a>
+                        href="https://mabassessoria.superlogica.net/clients/areadocondomino/"
+                        target="_blank"
+                        className="bg-white text-mab-gray-dark hover:text-white hover:bg-mab-blue-light rounded-3xl text-[.8rem] py-3 px-10 smPhone:mx-4 smLaptop:mx-0 flex items-center gap-2 focus:border-none border-mab-blue-light color-black hover:border-mab-blue-dark ease-in-out transition delay-150 hover:-translate-y-1 hover:scale-110 duration-300 group"
+                    >
+                        Área do Condômino
+                    </a>
                 </div>
             </div>
 
@@ -74,7 +75,7 @@ const Banner = ({ showDrawer, }: BannerProps) => {
                     <div className="smPhone:w-9 smLaptop:w-auto">
                         <img src={Triangle} alt="triangle" className="w-auto" />
                     </div>
-                    
+
                     <div className="smPhone:w-20 smLaptop:w-auto">
                         <img src={Window} alt="window" className="w-auto" />
                     </div>

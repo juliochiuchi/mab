@@ -2,13 +2,14 @@
 import { MdSupervisedUserCircle, } from 'react-icons/md';
 // import { ImClock, } from 'react-icons/im';
 import LogoMAB from "../../assets/logo-mab-transparent.png";
-import Button from '../Button';
+// import Button from '../Button';
 
-interface HeaderProps {
-    showDrawer: () => void,
-}
+// interface HeaderProps {
+//     showDrawer: () => void,
+// }
 
-const Header = ({ showDrawer, }: HeaderProps) => {
+// const Header = ({ showDrawer, }: HeaderProps) => {
+const Header = () => {
     return (
         <header className="flex flex-wrap items-center smPhone:justify-center smPhone:gap-3 smLaptop:justify-between mt-8 text-[.9rem]">
             <div className="flex flex-wrap items-center gap-10 smPhone:justify-center">
