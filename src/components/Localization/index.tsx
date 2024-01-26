@@ -21,7 +21,7 @@ const Localization = () => {
                 </div>
             </div>
         </div>
-    );
+    )
 }
 
-export default Localization;
+export default Localization

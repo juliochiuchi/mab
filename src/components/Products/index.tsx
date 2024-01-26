@@ -1,14 +1,14 @@
-import { BsArrowRightShort, } from 'react-icons/bs';
-import { HiOutlineClipboardDocumentCheck, } from 'react-icons/hi2';
-import { RiTeamLine, RiMoneyDollarCircleFill, } from 'react-icons/ri';
-import { PiWalletDuotone, } from 'react-icons/pi';
-import { LuHelpingHand, } from 'react-icons/lu';
-import { PiMonitorDuotone, } from 'react-icons/pi';
-import { SiReactquery, } from 'react-icons/si';
-import { VscFolderActive, } from 'react-icons/vsc';
-import { MdOutlineSecurity, } from 'react-icons/md';
+import { BsArrowRightShort, } from 'react-icons/bs'
+import { HiOutlineClipboardDocumentCheck, } from 'react-icons/hi2'
+import { RiTeamLine, RiMoneyDollarCircleFill, } from 'react-icons/ri'
+import { PiWalletDuotone, } from 'react-icons/pi'
+import { LuHelpingHand, } from 'react-icons/lu'
+import { PiMonitorDuotone, } from 'react-icons/pi'
+import { SiReactquery, } from 'react-icons/si'
+import { VscFolderActive, } from 'react-icons/vsc'
+import { MdOutlineSecurity, } from 'react-icons/md'
 
-import Button from "../Button";
+import Button from "../Button"
 
 const Products = () => {
     return (
@@ -261,7 +261,7 @@ const Products = () => {
                 </div>
             </div>
         </div>
-    );
+    )
 }
 
-export default Products;
+export default Products

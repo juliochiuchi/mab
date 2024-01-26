@@ -1,6 +1,6 @@
-import { BsArrowRightShort, } from 'react-icons/bs';
-import { PiBuildingsFill, } from 'react-icons/pi';
-import { TbClockFilled, } from 'react-icons/tb';
+import { BsArrowRightShort, } from 'react-icons/bs'
+import { PiBuildingsFill, } from 'react-icons/pi'
+import { TbClockFilled, } from 'react-icons/tb'
 
 const Contact = () => {
     return (
@@ -41,7 +41,7 @@ const Contact = () => {
                 </a>
             </div>
         </div>
-    );
+    )
 }
 
-export default Contact;
+export default Contact

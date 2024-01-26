@@ -10,7 +10,7 @@ const Card = ({ text, }: CardProps) => {
                 <span className="text-mab-white-ice">{text}</span>
             </div>
         </div>
-    );
+    )
 }
 
-export default Card;
+export default Card

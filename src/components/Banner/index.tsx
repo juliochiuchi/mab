@@ -1,20 +1,14 @@
-// import Button from "../Button";
-import Barchar from "../../assets/left/barchar.svg";
-import Chat from "../../assets/left/chat.svg";
-import CurvyLine from "../../assets/left/curvy-line.svg";
-import Rhombus from "../../assets/left/rhombus.svg";
-import SmallBlackCircle from "../../assets/left/small-black-circle.svg";
-import Carpet from "../../assets/right/carpet.svg";
-import SmallBlueCircle from "../../assets/right/small-blue-circle.svg";
-import SmallCurvyLine from "../../assets/right/small-curvy-line.svg";
-import Triangle from "../../assets/right/triangle.svg";
-import Window from "../../assets/right/window.svg";
+import Barchar from "../../assets/left/barchar.svg"
+import Chat from "../../assets/left/chat.svg"
+import CurvyLine from "../../assets/left/curvy-line.svg"
+import Rhombus from "../../assets/left/rhombus.svg"
+import SmallBlackCircle from "../../assets/left/small-black-circle.svg"
+import Carpet from "../../assets/right/carpet.svg"
+import SmallBlueCircle from "../../assets/right/small-blue-circle.svg"
+import SmallCurvyLine from "../../assets/right/small-curvy-line.svg"
+import Triangle from "../../assets/right/triangle.svg"
+import Window from "../../assets/right/window.svg"
 
-// interface BannerProps {
-//     showDrawer: () => void,
-// }
-
-// const Banner = ({ showDrawer, }: BannerProps) => {
 const Banner = () => {
     return (
         <div className="rounded-3xl bg-mab-blue-gray py-12 mt-5
@@ -51,11 +45,6 @@ const Banner = () => {
                 </span>
                 <div className="flex flex-row items-center gap-3 mt-5">
                     <span className="text-[#46526a] smPhone:hidden smLaptop:inline-block">Deseja acessar a sua área de condômino?</span>
-                    {/* <Button
-                        showDrawer={showDrawer}
-                        className="bg-white text-mab-gray-dark hover:text-white hover:bg-mab-blue-light rounded-3xl text-[.8rem] py-3 px-10 smPhone:mx-4 smLaptop:mx-0"
-                        text="Acessar Área do Condômino"
-                    /> */}
                     <a
                         href="https://mabassessoria.superlogica.net/clients/areadocondomino/"
                         target="_blank"
@@ -92,7 +81,7 @@ const Banner = () => {
                 </div>
             </div>
         </div>
-    );
+    )
 }
 
-export default Banner;
+export default Banner

@@ -1,14 +1,6 @@
-// import { IoLocationSharp, } from 'react-icons/io5';
-import { MdSupervisedUserCircle, } from 'react-icons/md';
-// import { ImClock, } from 'react-icons/im';
-import LogoMAB from "../../assets/logo-mab-transparent.png";
-// import Button from '../Button';
+import { MdSupervisedUserCircle, } from 'react-icons/md'
+import LogoMAB from "../../assets/logo-mab-transparent.png"
 
-// interface HeaderProps {
-//     showDrawer: () => void,
-// }
-
-// const Header = ({ showDrawer, }: HeaderProps) => {
 const Header = () => {
     return (
         <header className="flex flex-wrap items-center smPhone:justify-center smPhone:gap-3 smLaptop:justify-between mt-8 text-[.9rem]">
@@ -18,12 +10,7 @@ const Header = () => {
 
             <div className="flex flex-wrap items-center gap-10">
                 <div className="smPhone:hidden lgLaptop:inline-flex"><a href="#">Home</a></div>
-                {/* <Button
-                    className="flex items-center gap-2 rounded-3xl py-3 px-10 focus:border-none"
-                    showDrawer={showDrawer}
-                    text="Área do Condômino"
-                    icon={<MdSupervisedUserCircle className="text-[1.5rem] transition ease-in-out delay-150 duration-300 group-hover:translate-x-1 group-hover:scale-110" />}
-                /> */}
+
                 <a
                     href="https://mabassessoria.superlogica.net/clients/areadocondomino/"
                     target="_blank"
@@ -34,7 +21,7 @@ const Header = () => {
                 </a>
             </div>
         </header>
-    );
+    )
 }
 
-export default Header;
+export default Header

@@ -1,5 +1,5 @@
-import { ButtonHTMLAttributes, ReactNode } from "react";
-import { twMerge, } from "tailwind-merge";
+import { ButtonHTMLAttributes, ReactNode } from "react"
+import { twMerge, } from "tailwind-merge"
 
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
     text: string,
@@ -28,4 +28,4 @@ const Button = ({ showDrawer, info, text, icon, ...rest }: ButtonProps) => {
     );
 }
 
-export default Button;
+export default Button
