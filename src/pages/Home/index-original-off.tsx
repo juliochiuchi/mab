@@ -3,13 +3,13 @@ import LogoMAP from '../../assets/logo-mab-transparent.png'
 
 import { Drawer, } from 'antd'
 import { useEffect, useState, } from 'react'
-{/* import Header from '../../components/Header'
+import Header from '../../components/Header'
 import Banner from '../../components/Banner'
 import Contact from '../../components/Contact'
 import Footer from '../../components/Footer'
 import Products from '../../components/Products'
 import Solutions from '../../components/Solutions'
-import Localization from '../../components/Localization' */}
+import Localization from '../../components/Localization'
 
 const Home = () => {
     const [open, setOpen] = useState<boolean>(false)
@@ -31,7 +31,7 @@ const Home = () => {
             {
                 readyThisPage
                     ? <>
-                        {/* <header className="smPhone:mabContainerMobile smLaptop:mabContainer">
+                        <header className="smPhone:mabContainerMobile smLaptop:mabContainer">
                             <Header />
                         </header>
 
@@ -46,7 +46,7 @@ const Home = () => {
 
                         <footer className="smPhone:mabContainerMobile smLaptop:mabContainer">
                             <Footer />
-                        </footer> */}
+                        </footer>
                         <h3 className="flex items-center justify-center mt-30 center">Desculpe, mas este site não está mais disponível.</h3>
                     </>
                     : <>
