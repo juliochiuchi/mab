@@ -1,15 +1,7 @@
 import { IoIosCloseCircle, } from 'react-icons/io'
 import LogoMAP from '../../assets/logo-mab-transparent.png'
-
 import { Drawer, } from 'antd'
 import { useEffect, useState, } from 'react'
-import Header from '../../components/Header'
-import Banner from '../../components/Banner'
-import Contact from '../../components/Contact'
-import Footer from '../../components/Footer'
-import Products from '../../components/Products'
-import Solutions from '../../components/Solutions'
-import Localization from '../../components/Localization'
 
 const Home = () => {
     const [open, setOpen] = useState<boolean>(false)
@@ -31,23 +23,13 @@ const Home = () => {
             {
                 readyThisPage
                     ? <>
-                        <header className="smPhone:mabContainerMobile smLaptop:mabContainer">
-                            <Header />
-                        </header>
-
-                        <main className="smPhone:mabContainerMobile smLaptop:mabContainer">
-                            <Banner />
-                            <Products />
-                            <Contact />
-                            <Solutions />
-                        </main>
-
-                        <Localization />
-
-                        <footer className="smPhone:mabContainerMobile smLaptop:mabContainer">
-                            <Footer />
-                        </footer>
-                        <h3 className="flex items-center justify-center mt-30 center">Desculpe, mas este site não está mais disponível.</h3>
+                        <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 text-gray-800 px-4 text-center">
+      <h1 className="text-6xl font-bold mb-4">404</h1>
+      <h2 className="text-2xl font-semibold mb-2">Ops! Esta página não está mais disponível.</h2>
+      <p className="mb-6 text-gray-600">
+        O conteúdo que você está procurando foi removido ou não existe mais.
+      </p>
+    </div>
                     </>
                     : <>
                         <div className="h-[100vh] w-[100vw] -mt-10 flex flex-col gap-5 items-center justify-center">
