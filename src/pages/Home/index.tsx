@@ -3,13 +3,13 @@ import LogoMAP from '../../assets/logo-mab-transparent.png'
 
 import { Drawer, } from 'antd'
 import { useEffect, useState, } from 'react'
-import Header from '../../components/Header'
+{/* import Header from '../../components/Header'
 import Banner from '../../components/Banner'
 import Contact from '../../components/Contact'
 import Footer from '../../components/Footer'
 import Products from '../../components/Products'
 import Solutions from '../../components/Solutions'
-import Localization from '../../components/Localization'
+import Localization from '../../components/Localization' */}
 
 const Home = () => {
     const [open, setOpen] = useState<boolean>(false)
