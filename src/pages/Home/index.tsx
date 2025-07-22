@@ -35,7 +35,7 @@ const Home = () => {
                         <div className="h-[100vh] w-[100vw] -mt-10 flex flex-col gap-5 items-center justify-center">
                             <div className="rounded-full bg-mab-gray-2 flex flex-col items-center justify-center w-[250px]">
                                 <img src={LogoMAP} alt="logo mab assessoria" className="mt-14 h-[100px] animate-pulse" />
-                                <img src="https://i.pinimg.com/originals/49/23/29/492329d446c422b0483677d0318ab4fa.gif" alt="loading" className="h-[150px] -mt-14" />
+                                <img src="https://i.pinimg.com/originals/49/23/29/492329d446c422b0483677d0318ab4fa.gif" className="h-[150px] -mt-14" />
                             </div>
                         </div>
                     </>
