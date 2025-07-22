@@ -31,7 +31,7 @@ const Home = () => {
             {
                 readyThisPage
                     ? <>
-                        <header className="smPhone:mabContainerMobile smLaptop:mabContainer">
+                        {/* <header className="smPhone:mabContainerMobile smLaptop:mabContainer">
                             <Header />
                         </header>
 
@@ -46,7 +46,8 @@ const Home = () => {
 
                         <footer className="smPhone:mabContainerMobile smLaptop:mabContainer">
                             <Footer />
-                        </footer>
+                        </footer> */}
+                        <h3 className="flex items-center justify-center mt-30 center">Desculpe, mas este site não está mais disponível.</h3>
                     </>
                     : <>
                         <div className="h-[100vh] w-[100vw] -mt-10 flex flex-col gap-5 items-center justify-center">
